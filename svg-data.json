@@ -1,0 +1,105 @@
+{
+  "masthead": "THE WORLD TODAY",
+  "dateline": "Thursday 26 November 2026",
+  "labels": {
+    "counts": ["STORIES", "REGIONS", "FIELDS"],
+    "timeline": "UTC TIMELINE",
+    "timeline_note": "Report times and reported snapshots",
+    "leads": "LEAD STORIES",
+    "map": "WORLD MAP",
+    "map_note": "Numbers match stories. Some locations are approximate.",
+    "briefs": "WORLD BRIEFS",
+    "exclusions": "DATE CHECK - EXCLUDED"
+  },
+  "regions": {
+    "Middle East": ["#8b3f2d", "M. EAST"],
+    "North America": ["#2e556a", "N. AMERICA"],
+    "Europe": ["#574671", "EUROPE"],
+    "Africa": ["#77501f", "AFRICA"],
+    "Southeast Asia": ["#4b6034", "SE ASIA"],
+    "East Asia": ["#8f344d", "EAST ASIA"],
+    "South Asia": ["#75517c", "S. ASIA"],
+    "Oceania": ["#1e6366", "OCEANIA"],
+    "South America": ["#336548", "S. AMERICA"]
+  },
+  "timeline": [
+    ["16:21", "AP midday summary"],
+    ["17:13", "Bissau vote delay"],
+    ["17:51", "Gaza strike report"],
+    ["20:00", "419 US flights canceled"],
+    ["21:06", "US outage count"],
+    ["22:42", "AP evening summary"]
+  ],
+  "leads": [
+    {
+      "headline": ["Houthis Strike Saudi Ports,", "Oil Surges"],
+      "caption": "Port attacks and tanker mine claims keep oil near $95.",
+      "facts": [
+        "Coalition reports a drone intercepted near Jeddah.",
+        "Iran’s Guards say two tankers hit mines off Khasab.",
+        "Reuters could not independently verify the mine claim."
+      ],
+      "diagram": {"kind": "oil", "metric": "$94.61", "label": "+3.5% · 25 NOV SETTLE", "followup": "$94.81 on Thursday"},
+      "region": "Middle East", "field": "Energy", "location": [39.2, 21.5], "pin_offset": [22, 24]
+    },
+    {
+      "headline": ["Thanksgiving Storm Cuts", "Power to 836,000"],
+      "caption": "Nor’easter floods the coast and topples power lines.",
+      "facts": [
+        "Macy’s first weather postponement in 100 years.",
+        "The parade moves to Saturday at 8:30 a.m. ET.",
+        "New Jersey declares a state of emergency."
+      ],
+      "diagram": {"kind": "storm", "metric": "836,000+", "label": "CUSTOMERS OUT", "followup": "21:06 UTC"},
+      "region": "North America", "field": "Weather", "location": [-74, 40.7], "pin_offset": [13, -13]
+    },
+    {
+      "headline": ["Record 2,100 Migrants", "Reach Canary Islands"],
+      "caption": "More than 2,100 in 15 boats, reported 25 Nov.",
+      "facts": [
+        "The 24-hour record was concentrated on El Hierro.",
+        "November arrivals exceed the island’s population.",
+        "The 26 Nov update puts the tally at 15,025."
+      ],
+      "diagram": {"kind": "migration", "series": [[15025, "15,025 arrivals"], [12000, "~12,000 residents"]], "label": "EL HIERRO"},
+      "region": "Europe", "field": "Migration", "location": [-18, 27.7], "pin_offset": [-11, -13]
+    },
+    {
+      "headline": ["Iranian Drones Kill Two", "Italians in Kuwait"],
+      "caption": "Kuwait blames Iran for the strike. Iran denies it.",
+      "facts": [
+        "The two worked for Rheinmetall Italia.",
+        "The attack targeted an air-defence station.",
+        "Kuwaiti and Pakistani nationals were also injured."
+      ],
+      "diagram": {"kind": "kuwait", "metric": "2", "label": "ITALIAN TECHNICIANS"},
+      "region": "Middle East", "field": "Conflict", "location": [47.98, 29.37], "pin_offset": [19, -12]
+    }
+  ],
+  "briefs": [
+    {"text": "Israeli strikes and gunfire kill 10 in Gaza.", "region": "Middle East", "field": "Conflict", "location": [34.35, 31.42], "pin_offset": [-5, 20]},
+    {"text": "Ukrainian drones hit Russia’s Slavyansk refinery overnight.", "region": "Europe", "field": "Conflict", "location": [38.13, 45.25], "pin_offset": [0, -17]},
+    {"text": "Cairo detains driver over 25 Nov tanker crash that killed 31.", "region": "Africa", "field": "Transport", "location": [31.24, 30], "pin_offset": [-20, 5]},
+    {"text": "China–Cambodia Golden Dragon drills run 25 Nov–9 Dec.", "region": "Southeast Asia", "field": "Defence", "location": [103.6, 10.5], "pin_offset": [5, 1]},
+    {"text": "Guinea-Bissau delays elections to November 2028.", "region": "Africa", "field": "Politics", "location": [-15.6, 11.9]},
+    {"text": "Trump demands probe of pre-midterm US GDP figures.", "region": "North America", "field": "Politics", "location": [-77.04, 38.9], "pin_offset": [-15, 8]},
+    {"text": "Indonesia mine flood leaves eight dead, 18 trapped.", "region": "Southeast Asia", "field": "Disasters", "location": [118, -3], "pin_offset": [4, 5]},
+    {"text": "Norse Atlantic suspends flights, flags bankruptcy risk.", "region": "Europe", "field": "Business", "location": [8.8, 58.5]},
+    {"text": "North Korea expels Swiss envoy (25 Nov, reported 26 Nov).", "region": "East Asia", "field": "Diplomacy", "location": [125.75, 39.03]},
+    {"text": "Bangladesh garment wage rises 36%; fresh protests follow.", "region": "South Asia", "field": "Labor", "location": [90.4, 23.8]},
+    {"text": "Australia–Solomons pact signed 25 Nov, worth A$740m.", "region": "Oceania", "field": "Diplomacy", "location": [149.13, -35.28]},
+    {"text": "Colombia revises Cartagena siege count to 76 captives.", "region": "South America", "field": "Crime", "location": [-75.48, 10.39]}
+  ],
+  "exclusions": [
+    "Huawei verdict · New York jury ruled on 24 Nov.",
+    "UN AI framework call · Made on 23 Nov.",
+    "Chen Jining probe · Announced on 24 Nov.",
+    "Cairo tanker crash · Occurred on the evening of 25 Nov.",
+    "Saudi strike on Hodeidah · Took place on 25 Nov.",
+    "Shenzhou-24, tariffs and market plunge · In the 25 Nov entry."
+  ],
+  "footer": [
+    "Methodology · Every item date-checked. Counts use one primary region and field per story. Earlier events are dated in context.",
+    "Sources · Reuters / AP / AFP and other reporting through 26 Nov 2026 UTC. Dated carryovers are marked."
+  ]
+}
